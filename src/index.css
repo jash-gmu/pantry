@@ -1,0 +1,40 @@
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-title {
+  flex-grow: 1;
+  text-align: center;
+  color: black;
+}
+
+
+.inventory-list {
+  padding: 20px;
+}
+
+.inventory-item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.item-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
